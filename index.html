@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+        <meta charset="utf-8" />
+        <title>Mi Página</title>
+        <link rel="shortcut icon" href="imag/images.ico">
+    </head>
+
+    <body>
+        <div class="titulo">
+            <h1>UN POCO SOBRE MI</h1>
+        </div>
+
+        <div class="foto">
+            <img src="imag/unnamed.jpg" height="250">
+        </div>
+
+        <div class="texto">
+            <h4>Mi información Personal</h4>
+            <p>Mi nombre es Sebatián Daniel Támara Caballero, soy estudiante de EPIS<br>
+            de la <a href="http://unajma.edu.pe/es" target="_blank"><span style="color: blue">Universidad Nacional José Maria Argedas</span></a>.</p>
+            <p>Actualmente curso el quinto ciclo de esta carrera, me gusta escuchar música <br>
+            y salir a caminar. Por lo general no soy muy activo por las redes sociales <br>
+            como <a href="https://www.facebook.com/sebastiandaniel.tamaracaballero.1" target="_blank"><span style="color: blueviolet">Facebook</span></a> o 
+            <a href="https://twitter.com/Sebasti53227224" target="_blank"><span style="color: blueviolet">Twitter</span></a> y poco más..</p>
+            <hr>
+            <p>Por lo general los horarios varían por cada estudiante dependiendo de los cursos <br>
+            que aprueban o adelantan. En este caso el siguiente horario sería el correspondiente <br>
+            a los cursos del quinto ciclo de esta carrera.</p>
+            <hr>
+        </div>
+
+        <style>
+            .titulo{
+                text-align: center;
+                background-color: wheat;
+                opacity: 0.80;
+            }
+            .foto{
+                text-align: center;
+                opacity: 0.90;
+                
+            }
+            
+            .texto{
+                color: black;
+                text-align: center;
+                background-color: wheat;
+                opacity: 0.80;
+            }
+
+            table{
+                margin-left: auto;
+                margin-right: auto;
+                height: 25%;width: 50%;
+                border: skyblue solid 5px;
+                text-align: center;
+                opacity: 0.90;
+            }
+            th, td{
+                background-color: lightskyblue;
+            }
+
+            .libre{
+                background-color: white;
+            }
+            .des{
+                background-color: orange;
+            }
+            .inf{
+                background-color: lightgray;
+
+            }
+            .bas{
+                background-color: lightseagreen;
+            }
+            .dig{
+                background-color: crimson;
+            }
+            .red{
+                background-color: khaki;
+            }
+            .prog{
+                background-color: dodgerblue;
+            }
+
+            body{
+                background-image: url('https://64.media.tumblr.com/5ee625327bcd644f06ba0b00b5b475ce/tumblr_ow8ha3aWOf1upvbufo1_540.gifv');
+                background-size: cover;
+            }
+        </style>
+        
+        <table>
+            <thead>
+                <tr>
+                    <th>HORA</th>
+                    <th>LUNES</th>
+                    <th>MARTES</th>
+                    <th>MIERCOLES</th>
+                    <th>JUEVES</th>
+                    <th>VIERNES</th>
+                    <th>SABADO</th>
+                    <th>DOMINGO</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="hora">7:00 - 8:00 AM</td>
+                    <td rowspan="2" class="des">DESARROLLO EXPERIMENTAL E INNOVACIÓN TECNOLÓGICA</td>
+                    <td rowspan="2" class="des">DESARROLLO EXPERIMENTAL E INNOVACIÓN TECNOLÓGICA</td>
+                    <td rowspan="2" class="inf">SISTEMAS DE INFORMACIÓN</td>
+                    <td rowspan="1" class="inf">SISTEMAS DE INFORMACIÓN</td>
+                    <td rowspan="2" class="inf">SISTEMAS DE INFORMACIÓN</td>
+                    <td rowspan="6" class="libre">LIBRE</td>
+                    <td rowspan="6" class="libre">LIBRE</td>
+                </tr>
+                <tr>
+                    <td class="hora">8:00 - 9:00 AM</td>
+                    <td rowspan="2" class="dig">SISTEMAS DIGITALES</td>
+                </tr>
+                <tr>
+                    <td class="hora">9:00 - 10:00 AM</td>
+                    <td rowspan="2" class="bas">BASE DE DATOS II</td>
+                    <td rowspan="2" class="bas">BASE DE DATOS II</td>
+                    <td rowspan="2" class="bas">BASE DE DATOS II</td>
+                    <td rowspan="2" class="red">REDES DE COMPUTADORAS I</td>
+                </tr>
+                <tr>
+                    <td class="hora">10:00 - 11:00 AM</td>
+                    <td rowspan="3" class="red">REDES DE COMPUTADORAS I</td>
+                </tr>
+                <tr>
+                    <td class="hora">11:00 - 12:00 AM</td>
+                    <td rowspan="2" class="prog">PROGRAMACIÓN WEB</td>
+                    <td rowspan="2" class="prog">PROGRAMACIÓN WEB</td>
+                    <td rowspan="2" class="dig">SISTEMAS DIGITALES</td>
+                    <td rowspan="2" class="prog">PROGRAMACIÓN WEB</td>
+                </tr>
+                <tr>
+                    <td class="hora">12:00 - 1:00 PM</td>
+                </tr>
+            </tbody>
+            <tfoot>
+        
+            </tfoot>
+        
+        </table>
+    </body>
+</html>
+
